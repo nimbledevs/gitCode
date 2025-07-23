@@ -80,3 +80,37 @@ if (!started && inViewSession(counterSec)) {
 
 
 
+// ----------
+
+
+// Works on all screen sizes, even when all items fit inside the screen
+
+const slider = document.querySelector('.latest-project-sliding-row');
+
+let isDragging = false;
+let startX, currentTranslate = 0, prevTranslate = 0;
+
+slider.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  slider.classList.add('active');
+  startX = e.clientX;
+});
+
+window.addEventListener('mouseup', () => {
+  if (!isDragging) return;
+  isDragging = false;
+  slider.classList.remove('active');
+  prevTranslate = currentTranslate;
+});
+
+window.addEventListener('mousemove', (e) => {
+  if (!isDragging) return;
+  const deltaX = e.clientX - startX;
+  currentTranslate = prevTranslate + deltaX;
+  slider.style.transform = `translateX(${currentTranslate}px)`;
+});
+
+
+
+// marquee
+
