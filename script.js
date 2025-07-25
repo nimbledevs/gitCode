@@ -139,3 +139,37 @@ function Marquee(selector, speed) {
 }
 
 window.addEventListener('load', () => Marquee('.marquee-cont', 0.4));
+
+
+// progress bar 
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const progressBars = document.querySelectorAll(".progress-bar-fill");
+
+    const observer = new IntersectionObserver(
+      (entries) =>{
+        entries.forEach(entry => {
+          const el = entry.target;
+          const targetWidth = el.getAttribute("data-target");
+
+          if (entry.isIntersecting) {
+            el.style.width = targetWidth;
+          } else {
+            el.style.width = "0%"; // Reset when not visible
+          }
+        });
+      },
+      {
+        threshold: 0.6
+      }
+    );
+
+    progressBars.forEach(bar => {
+      observer.observe(bar);
+    });
+  });
+
+
+
+// faq 
