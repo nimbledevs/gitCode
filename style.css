@@ -327,24 +327,29 @@ position:relative;
     background-size: cover;
     overflow: hidden;
 }
-.sustainable-main-cont{
-  display:flex;
-}
+
+
+
 .suistainable-second-image,.suistainable-first-image{
   padding: 0px 15px;
+  /* width: 33.3%; */
 }
 .circle-image{
   position: absolute;
       top: -11%;
 }
 .suistainable-info{
-background-color: #f0f5f1;
+
     padding: 30px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    /* width: 33.3%; */
+
+
+
 
 }
 .suistainable-info h3{
@@ -375,6 +380,51 @@ position: absolute;
 top: -25px;
 right: 10%;
 
+}
+#sustainable{
+margin: 110px 0px 0px;
+}
+
+.sustainable-main-cont img{
+  margin-bottom: 15px;
+  /* width: 100%; */
+ 
+
+
+}
+.sustainable-main-cont {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    background: url(images/susutainable-leave.avif)!important;
+    background-repeat: no-repeat!important;
+     background-position:center !important;
+     width: 100%;
+     display: grid
+;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.sustainable-info-cont{
+  padding :0px 15px;
+  background-color: #f0f5f1;
+      border-radius: 10px;
+}
+.sustainable-main-cont h2 {
+    font-weight: 700;
+    font-size:46px;
+    line-height: 64px;
+    margin-bottom: 30px;
+}
+
+
+
+.suistainable-first-image img ,.suistainable-second-image img{
+ object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
 }
 a.more-about{
    height: 56px;
@@ -808,39 +858,42 @@ a.latest-box-btn-heading{
 
 
 
-/* #latest-box1 img{
-  width: 300px;
-  height: 300px;
-} */
-
-#sustainable{
-margin: 110px 0 120px;
+ .sustainable-development-main-cont p {
+    font-weight: 500;
+    margin-bottom: 50px;
+  
 }
-
-.sustainable-main-cont img{
-  margin-bottom: 15px;
-}
-.sustainable-main-cont {
-    display: flex;
+.sustainable-development-main-cont{
+display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background: url(images/susutainable-leave.avif)!important;
     background-repeat: no-repeat!important;
      background-position:center !important;
-   
+     width: 100%;
 }
-.sustainable-main-cont h2 {
+
+
+.sustainable-development-main-cont h2 {
     font-weight: 700;
-    font-size:60px;
+    font-size: 60px;
     line-height: 64px;
     margin-bottom: 30px;
 }
-.sustainable-main-cont p {
-    font-weight: 500;
-    margin-bottom: 50px;
-  
-}
+     
+
+
+
+
+
+
+
+
+
+
+
+
 .marquee span{
   font-size: 74px;
   font-weight: 700;
@@ -861,7 +914,7 @@ margin: 110px 0 120px;
  align-items: center;
     justify-content: center;
     display: flex;
-    margin: 120px 0px ;
+    margin: 120px 0px;
     flex-direction: row; 
     white-space: nowrap;
     /* animation: marquee 30s linear infinite; */
@@ -870,9 +923,11 @@ margin: 110px 0 120px;
 }
 .marquee-cont{
 overflow: hidden;
+display: flex;
 
 
 }
+
 /* @keyframes marquee{
   0%{
 transform :translateX(100%)
@@ -887,23 +942,81 @@ transform :translateX(-100%)
 #open-donation{
   background-image: url("images/green-bg.webp");
   padding: 120px 0px;
+  text-align: center;
+  width: 100%;
+  background-position: center;
 
 }
-   
+.allbar-box-cont{
+  display: flex;
+}
+.open-donation h3,.open-donation h2{
+  color:#fff;
+}
+.progress-bar-info{
+  padding : 30px 30px 40px ;
+   background-color: #fff;
+   text-align: left;
+       border-radius: 0 0 12px 12px;
+
+}
+.progress-bar-box{
+ 
+  padding: 0px 15px;
+}
+.progress-bar-info h4{
+font-weight: 600;
+}
+.progressbar-goaltext{
+  margin:30px 0px 15px;
+  justify-content: space-between;
+    display: flex
+;
+/* flex-direction: column; */
+  
+}
+.progressbar-goaltext span{
+  font-size:14px;
+ color: #4e4e4e;
+ font-weight: 500;
+
+}
+.progress{
+  height: 8px;
+  width: 100%;
+      border-radius: 20px;
+  background-color:#E9EAE9;
+}
+.progress-bar-fill{
+  width: 0%;
+  background:linear-gradient(90deg, #018C81 0%, #A8E304 51%, #018C81 100%) 0 / 200%;
+  height: 8px;
+   border-radius: 20px;
+    transition: width 2s ease;
 
 
+}
+.progress-bar-info .services-read-more-btn{
+      display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
 
 
+.progress-bar-box-image img{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.open-donation h2{
+  margin: 20px 0px 60px;
+  line-height: 50px;
+}
 
-
-
-
-
-
-
-
-
-
+.open-donation h3{
+  margin-top: 10px;
+}
 
 
 
@@ -1006,3 +1119,12 @@ text-transform: uppercase;
 
 /* ---------------- */
 
+#faq-sec{
+  margin: 120px 0;
+}
+.faq-image-cont,.faq-info-cont{
+  padding: 0px 15px;
+}
+.faq-cont{
+  display: flex;
+}
