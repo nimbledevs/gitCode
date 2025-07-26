@@ -142,8 +142,6 @@ window.addEventListener('load', () => Marquee('.marquee-cont', 0.4));
 
 
 // progress bar 
-
-
   document.addEventListener("DOMContentLoaded", function () {
     const progressBars = document.querySelectorAll(".progress-bar-fill");
 
@@ -166,10 +164,12 @@ window.addEventListener('load', () => Marquee('.marquee-cont', 0.4));
     );
 
     progressBars.forEach(bar => {
-      observer.observe(bar);
+    observer.observe(bar);
     });
   });
 
-
-
 // faq 
+
+
+
+
