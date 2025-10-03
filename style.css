@@ -1,0 +1,153 @@
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 1304px !important;
+    }
+}
+@media (min-width: 678px) {
+    .container{
+        max-width: 1304px !important;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px !important;
+    }
+}
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1304px !important;
+    }
+}
+.font-size{
+    font-size: 15px;
+}
+.bracket-color{
+color:#764df0
+}
+.sub-title{
+    padding-bottom:22px !important;
+}
+.dropdown-toggle::after {
+    margin-left:6px !important;
+}
+a.btn{
+    background-color: #764df0;
+    transition: 0.9s ease;
+}
+
+a:hover.btn{
+    background-color: #101435;
+}
+.nav-link{
+    font-size: 15px !important;
+}
+
+.gradient-overlay{
+    /* background-color: #764df070; */
+    background: linear-gradient(180deg, #764df0 0%, #7649f000 100%);
+    opacity: .6;
+}
+body {
+    font-family: "Manrope", sans-serif !important;
+  }
+
+  h1{
+    font-size: 120px !important;
+  }
+  @media(max-width:992px){
+    h1{
+        font-size: 90px !important;
+      }
+  }
+  @media(max-width:768px){
+    h1{
+        font-size: 90px !important;
+      }
+  }
+  @media(max-width:576px){
+    h1{
+        font-size: 60px !important;
+      }
+  }
+  .mh {
+    min-height: 800px !important;
+}
+
+.background{
+    background-color: #101435!important;
+}
+@keyframes rotate{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+    .rotate-animation{
+        animation: rotate 9s linear infinite;
+    }
+#home-main{
+    padding: 100px 0px;
+}
+
+
+
+
+/* button-effect */
+
+a.btn.button-main {
+    position: relative;
+    display: inline-block; 
+    overflow: hidden; 
+}
+
+a.btn.button-main .fx-slide {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out; 
+}
+
+a.btn.button-main::before {
+    content: "Buy Tickets";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover.btn.button-main::before {
+    bottom: 0; 
+}
+
+a:hover.btn.button-main .fx-slide {
+    transform: translateY(25px); 
+}
+
+
+
+
+
+header {
+    transition: background-color 0.3s ease;
+  }
+  
+  header.transparent {
+    background-color: transparent;
+  }
+  
+  header.scrolled {
+    background-color: #111 !important;
+  }
+  
