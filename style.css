@@ -1,4 +1,7 @@
 
+body{
+    background-color: #101435!important;
+}
 @media (min-width: 576px) {
     .container{
         max-width: 1304px !important;
@@ -151,3 +154,118 @@ header {
     background-color: #111 !important;
   }
   
+
+
+  /* section padding  */
+  .section-padding{
+    padding: 100px 0px !important;
+
+  }
+  .h2{
+    margin-bottom: 25px !important;
+    background:linear-gradient( 0deg, #888888 0%, #ffffff 75%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .h2 ,.para{
+    background:linear-gradient( 0deg, #888888 0%, #ffffff 75%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  li.list-icon{
+    position: relative;
+    padding-left:30px;
+  }
+  li.list-icon::before{
+    position: absolute;
+    content:"";
+    width: 16px;
+    height: 16px;
+    top:5px;
+    left: 0;
+    background-image: url(images/tick.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+     padding: 4px 0px;
+   
+  }
+
+
+
+
+
+
+
+
+
+  /* marquee section */
+  /* .marquee-background{
+    background-color: #764df0;
+    padding:1.5rem  0px !important;
+  }
+ .marquee-font{
+    font-size: 60px !important;
+  }
+.marquee-background-second{
+    background-color: #442490;
+    padding:1.5rem  0px !important;
+  }
+  .marquee{
+    white-space: nowrap;
+    overflow: hidden;
+
+  } */
+  .marquee-background,
+  .marquee-background-second {
+    overflow: hidden;
+    padding: 48px 0px !important;
+  }
+  
+  .marquee-background {
+    background-color: #764df0;
+  }
+  
+  .marquee-background-second {
+    background-color: #442490;
+  }
+  
+  .marquee {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .marquee-content span {
+    margin: 0 1.5rem;
+  }
+  
+  .marquee-right-main{
+    transform: rotate(1deg);
+  }
+  
+  .marquee-left-main{
+    transform: rotate(-1deg);
+  }
+
+
+
+  /* attend  */
+
+  p.attend-para{
+    font-size: 18px;
+    text-align: center;
+  }
+  .bg-col-1 {
+    background-image: url(images/ai-image1.webp);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 0px 15px;
+    border-radius: 10px;
+  }
