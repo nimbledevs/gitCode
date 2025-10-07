@@ -81,3 +81,29 @@ window.onload = function () {
 
 
     
+// image carousel 
+
+const swiper = new Swiper('.our-image-slide', {
+  slidePerView: 2,
+  spaceBetween: 40,
+  loop: true,
+  autoplay: {
+      delay: 10000,
+      disableOnInteraction: false,
+
+  },
+  breakpoints: {
+      576: {
+          slidePerView: 3,
+      },
+      768: {
+          slidePerView: 4,
+      },
+      992: {
+          slidePerView: 5,
+      },
+      1200: {
+          slidePerView: 6,
+      }
+  }
+})
