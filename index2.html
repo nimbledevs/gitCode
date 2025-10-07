@@ -11,11 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
     <header class="position-relative z-1 transparent  ">
-        <div class="container d-flex justify-content-between fixed-top ">
+        <div class="container d-flex justify-content-between fixed-top">
 
             <div class=" d-flex ">
                 <a class=" d-flex align-items-center" href="#">
@@ -112,11 +115,12 @@
 
 
 
+
         </div>
 
     </header>
 
-    <section id="home-main" class="d-flex justify-content-center">
+    <section id="home-main" class="d-flex justify-content-center position-relative">
         <video autoplay muted loop playsinline
             class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1 ">
             <source src="images/2.mp4" type="video/mp4">
@@ -245,7 +249,7 @@
 
     <section class="background section-padding">
         <div class="container-fluid">
-            <!-- <div class="row gx-5 align-items-center justify-content-between"> -->
+
             <div class="container">
                 <div class="innertext justify-content-between d-flex flex-column align-items-center">
                     <div class="text-white sub-title d-flex font-size">
@@ -265,39 +269,244 @@
                 </div>
                 <div class="row pt-4">
                     <div class="col-md-4  p-0 ">
-                        
-                        <div class="bg-col-1 box-shadow position-relative gradient-color">
-
+                        <div class="outer position-relative ">
                             <div class="p-4 m-3 position-absolute bottom-0 z-2">
                                 <h4 class="text-white ">Cutting-Edge Knowledge</h4>
                                 <p class=" mb-0 card-para">Stay ahead of the curve with insights from AI leaders
                                     shaping tomorrow’s technology.</p>
                             </div>
-
-
+                            <div class="bg-col-1 bg-img box-shadow gradient-color  ">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4  p-0">
-                        <div class="bg-col-1">
-
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Hands-On Learning</h4>
+                                <p class=" mb-0 card-para">Join live workshops and labs to build practical skills in AI
+                                    and machine learning.</p>
+                            </div>
+                            <div class="bg-col-2 bg-img box-shadow gradient-color  ">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4  p-0">
-                        <div class="bg-col-1">
-
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Global Networking
+                                </h4>
+                                <p class=" mb-0 card-para">Meet developers, founders, and researchers from around the
+                                    world to collaborate and grow.
+                                </p>
+                            </div>
+                            <div class="bg-col-3 bg-img box-shadow gradient-color  ">
+                            </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-4  p-0  ">
+                        <div class="outer position-relative  ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Startup Showcase
+                                </h4>
+                                <p class=" mb-0 card-para">Explore the latest AI tools and ideas from promising startups
+                                    and research labs.
+
+                                </p>
+                            </div>
+                            <div class="bg-col-4 bg-img box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">AI Career Boost</h4>
+                                <p class=" mb-0 card-para">Access exclusive job fairs, mentorship sessions, and
+                                    recruiting events to grow your career. </p>
+                            </div>
+                            <div class="bg-col-5 bg-img box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Ethics & Future</h4>
+                                <p class=" mb-0 card-para">Engage in vital conversations around AI ethics, policy, and
+                                    the future of intelligence.</p>
+                            </div>
+                            <div class="bg-col-6 bg-img box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- </div> -->
         </div>
     </section>
+
+
+    <!-- testimonial section  -->
+    <section class="testimonial-sec section-padding testi-gradient-color">
+        <div class="container position-relative z-2  ">
+            <div class="row ">
+                <div class="col-md-4 mt-5 testi-inner-padding">
+                    <div class="img-cont pe-5 position-relative">
+                        <img src="images/testi-man-img.webp" alt="image not found " width="312" height="312"
+                            class="testi-man-img rounded-3">
+
+                        <div class="position-absolute background-2 rounded-3 top-0 end-0 quotes">
+                            <img src="images/double-quote.svg" alt="" width="40px" height="44px">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-8 mt-5 testi-inner-padding">
+                    <h3 class=" text-white lh-base ">
+                        “Artificial intelligence is advancing rapidly, and while it offers immense opportunity, it also
+                        poses significant risks. If not properly regulated and aligned with human values, AI could
+                        become a fundamental threat to civilization.”
+
+                    </h3>
+                    <p class="text-white fw-bold">
+                        Elon Musk
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- speakers section  -->
+
+    <section class="background section-padding speakers-gradient-color">
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="innertext justify-content-between d-flex flex-column align-items-center">
+                    <div class="text-white sub-title d-flex font-size">
+                        <span class="font-size bracket-color"> [ </span>
+                        Speakers
+
+                        <span class="font-size bracket-color"> ]</span>
+                    </div>
+                    <h2 class="text-white display-5 fw-bold h2">
+                        Meet the Visionaries
+
+
+                    </h2>
+                    <p class="text-white pb-1 lh-5 para  w-40 attend-para">
+                        Whether it's a quick refresh or a deep clean transformation, our expert<br> touch leaves your
+                        home or office shining.
+
+
+                    </p>
+
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Joshua Henry</h4>
+                                <p class=" mb-0 card-para">Chief AI Scientist, OpenAI</p>
+                            </div>
+                            <div class="speakers bg-img team1 box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Hands-On Learning</h4>
+                                <p class=" mb-0 card-para">Join live workshops and labs to build practical skills in AI
+                                    and machine learning.</p>
+                            </div>
+                            <div class="speakers bg-img team2 box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0 ">
+                        <div class="outer position-relative ">
+                            <div class="p-4 m-3 position-absolute bottom-0 z-2">
+                                <h4 class="text-white ">Global Networking
+                                </h4>
+                                <p class=" mb-0 card-para">Meet developers, founders, and researchers from around the
+                                    world to collaborate and grow.
+                                </p>
+                            </div>
+                            <div class="speakers bg-img team3 box-shadow gradient-color  ">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- image carousel -->
+    <section class=" p-5 ">
+        <div class="container">
+            <div class="swiper our-image-slide ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/6.webp" alt=" ">
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        console.log('Swiper initializing...');
+    </script>
+
 </body>
 
 </html>
