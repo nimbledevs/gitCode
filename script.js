@@ -84,11 +84,11 @@ window.onload = function () {
 // image carousel 
 
 const swiper = new Swiper('.our-image-slide', {
-  slidePerView: 2,
+  slidesPerView: 6,
   spaceBetween: 40,
   loop: true,
   autoplay: {
-      delay: 10000,
+    delay:2000,
       disableOnInteraction: false,
 
   },
