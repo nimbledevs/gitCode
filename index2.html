@@ -33,10 +33,10 @@
 
                         </span>
                     </button>
-                    <div class="collapse  navbar-collapse" id="mynavbar">
+                    <div class="collapse navbar-collapse" id="mynavbar">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                               
+
                                 <a class="nav-link dropdown-toggle text-white fw-bold text-capitalize py-4 me-4 ps-0 pe-1"
                                     href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Home</a>
@@ -81,7 +81,7 @@
                                     href="">FAQ</a>
                             </li>
                             <li class="nav-item dropdown">
-                                
+
                                 <a class="nav-link dropdown-toggle text-white fw-bold text-capitalize py-4 me-4 ps-0 pe-1"
                                     href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Pages</a>
@@ -438,7 +438,7 @@
                                 </p>
                             </div>
                             <div class="speakers bg-img team3 box-shadow gradient-color position-relative  ">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -498,7 +498,7 @@
     <section class="background section-padding  ">
         <div class="container-fluid">
 
-            <div class="container">
+            <div class="container p-0">
                 <div class="innertext justify-content-between d-flex flex-column align-items-center">
                     <div class="text-white sub-title d-flex font-size">
                         <span class="font-size bracket-color"> [ </span>
@@ -512,62 +512,877 @@
 
                 </div>
                 <div class="container">
-                    <ul class="nav nav-tabs nav-fill justify-content-between border-0">
-                        <li class="nav-item active">
-                             <a href="" class="nav-link tab-button p-0 fw-bold "><h3>Day 1</h3>Oct 1, 2025
+                    <ul class="nav nav-tabs nav-fill justify-content-between border-0" id="mytab" role="tablist">
+                        <li class="nav-item  border-0" role="presentation">
+                            <button class="nav-link tab-button p-0 fw-bold active " type="button" data-bs-toggle="tab"
+                                data-bs-target="#day1" id="day1-tab">
+                                <h3 class=" tab-day-heading bold">Day 1</h3> Oct 1, 2025
+                            </button>
+                        </li>
+                        <li class="nav-item border-0" role="presentation">
+                            <button class="nav-link tab-button p-0 fw-bold" type="button" data-bs-toggle="tab"
+                                data-bs-target="#day2" id="day2-tab">
+                                <h3 class=" tab-day-heading bold">Day 2</h3> Oct 2, 2025
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link tab-button p-0 fw-bold" type="button" data-bs-toggle="tab"
+                                data-bs-target="#day3" id="day3-tab">
+                                <h3 class=" tab-day-heading bold">Day 3</h3> Oct 3, 2025
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link tab-button p-0 fw-bold" type="button" data-bs-toggle="tab"
+                                data-bs-target="#day4" id="day4-tab">
+                                <h3 class=" tab-day-heading bold">Day 4</h3> Oct 5, 2025
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link tab-button p-0 fw-bold" type="button" data-bs-toggle="tab"
+                                data-bs-target="#day5" id="day5-tab">
+                                <h3 class=" tab-day-heading bold">Day 5</h3> Oct 5, 2025
+                            </button>
+                        </li>
 
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                             <a href="" class="nav-link tab-button p-0 fw-bold">Day 2</a>
-                        </li>
-                        <li class="nav-item">
-                             <a href="" class="nav-link tab-button p-0 fw-bold">Day 3</a>
-                        </li>
-                        <li class="nav-item">
-                             <a href="" class="nav-link tab-button p-0 fw-bold"><h3>dfghdf</h3>sdfh</a>
-                        </li>
-                        <li class="nav-item">
-                             <a href="" class="nav-link tab-button p-0 fw-bold">Day 5 </a>
-                        </li>
+
+
                     </ul>
-                    <div class="row-containers">
-                        <div class="row">
-                            <div class="col-md-2 text-white">
-                                08:00 – 10:00 AM
-                            </div>
-                            <div class="col-md-4 d-flex text-white">
-                                <div>
-                                    <img src="images/team1.webp" alt="" width="100" height="100"class="rounded-3 tab-image"
-                                    >
+                    <div class="tab-content" id="myTabContent">
+                        <div class="row-containers tab-pane fade show active" role="tabpanel" id="day1"
+                            aria-labelledby="day1-tab">
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    08:00 – 10:00 AM
                                 </div>
-                                <div>
-                                    <h5 class="fw-bold">Joshua Henry
-                                    </h5>
-                                    <p>AI Research Lead, DeepTech Labs
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/team1.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Joshua Henry
+                                        </h5>
+                                        <p>AI Research Lead, DeepTech Labs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Opening Keynote – The
+                                        State of AI 2025</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Kick off the event with an insightful
+                                        overview of
+                                        where artificial intelligence is headed. Ava will explore breakthroughs, global
+                                        shifts, and what’s next in deep learning, generative models, and AI ethics.
+
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 ">
-                                <h3 class="text-white">Session: Opening Keynote – The State of AI 2025</h3>
-                                <p class="text-light">Kick off the event with an insightful overview of where artificial intelligence is headed. Ava will explore breakthroughs, global shifts, and what’s next in deep learning, generative models, and AI ethics.
-    
-                                </p>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    12:00 – 14:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Leila-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Leila Zhang
+                                        </h5>
+                                        <p>VP of Machine Learning, Google
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building
+                                        Human-Centered
+                                        AI Products</h3>
+                                    <p class="text-light p-0 m-0 tab-para">This session covers how to design AI
+                                        solutions
+                                        that prioritize usability, fairness, and real-world impact. Bring your
+                                        laptop—hands-on UX exercises included.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    16:00 – 18:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Carlos-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Carlos Rivera
+                                        </h5>
+                                        <p>Founder & CEO, NeuralCore
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: AI Policy &
+                                        Regulation –
+                                        A Global Overview</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Learn how nations and organizations are
+                                        approaching AI governance, including frameworks for data privacy, bias
+                                        mitigation,
+                                        and accountability in model deployment.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    20:00 – 22:00 PM
+
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Maria-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Maria Gonzalez
+
+                                        </h5>
+                                        <p>Founder & CEO, SynthCore AI
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building a Startup
+                                        with
+                                        AI at the Core
+                                    </h3>
+                                    <p class="text-light p-0 m-0 tab-para">Marco shares his journey launching an
+                                        AI-first
+                                        startup. Discover tips on tech stacks, team-building, funding, and scaling
+                                        responsibly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-containers tab-pane fade" role="tabpanel" id="day2" aria-labelledby="day2-tab">
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    08:00 – 10:00 AM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/team1.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Joshua Henry
+                                        </h5>
+                                        <p>AI Research Lead, DeepTech Labs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Opening Keynote – The
+                                        State of AI 2025</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Kick off the event with an insightful
+                                        overview of
+                                        where artificial intelligence is headed. Ava will explore breakthroughs, global
+                                        shifts, and what’s next in deep learning, generative models, and AI ethics.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    12:00 – 14:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Carlos-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Leila Zhang
+                                        </h5>
+                                        <p>VP of Machine Learning, Google
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building
+                                        Human-Centered
+                                        AI Products</h3>
+                                    <p class="text-light p-0 m-0 tab-para">This session covers how to design AI
+                                        solutions
+                                        that prioritize usability, fairness, and real-world impact. Bring your
+                                        laptop—hands-on UX exercises included.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    16:00 – 18:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Carlos-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Carlos Rivera
+                                        </h5>
+                                        <p>Founder & CEO, NeuralCore
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: AI Policy &
+                                        Regulation –
+                                        A Global Overview</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Learn how nations and organizations are
+                                        approaching AI governance, including frameworks for data privacy, bias
+                                        mitigation,
+                                        and accountability in model deployment.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    20:00 – 22:00 PM
+
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Maria-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Maria Gonzalez
+
+                                        </h5>
+                                        <p>Founder & CEO, SynthCore AI
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building a Startup
+                                        with
+                                        AI at the Core
+                                    </h3>
+                                    <p class="text-light p-0 m-0 tab-para">Marco shares his journey launching an
+                                        AI-first
+                                        startup. Discover tips on tech stacks, team-building, funding, and scaling
+                                        responsibly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-containers tab-pane fade" role="tabpanel" id="day3" aria-labelledby="day3-tab">
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    08:00 – 10:00 AM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/team1.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Joshua Henry
+                                        </h5>
+                                        <p>AI Research Lead, DeepTech Labs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Opening Keynote – The
+                                        State of AI 2025</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Kick off the event with an insightful
+                                        overview of
+                                        where artificial intelligence is headed. Ava will explore breakthroughs, global
+                                        shifts, and what’s next in deep learning, generative models, and AI ethics.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    12:00 – 14:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Leila-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Leila Zhang
+                                        </h5>
+                                        <p>VP of Machine Learning, Google
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building
+                                        Human-Centered
+                                        AI Products</h3>
+                                    <p class="text-light p-0 m-0 tab-para">This session covers how to design AI
+                                        solutions
+                                        that prioritize usability, fairness, and real-world impact. Bring your
+                                        laptop—hands-on UX exercises included.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    16:00 – 18:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Carlos-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Carlos Rivera
+                                        </h5>
+                                        <p>Founder & CEO, NeuralCore
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: AI Policy &
+                                        Regulation –
+                                        A Global Overview</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Learn how nations and organizations are
+                                        approaching AI governance, including frameworks for data privacy, bias
+                                        mitigation,
+                                        and accountability in model deployment.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    20:00 – 22:00 PM
+
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Maria-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Maria Gonzalez
+
+                                        </h5>
+                                        <p>Founder & CEO, SynthCore AI
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building a Startup
+                                        with
+                                        AI at the Core
+                                    </h3>
+                                    <p class="text-light p-0 m-0 tab-para">Marco shares his journey launching an
+                                        AI-first
+                                        startup. Discover tips on tech stacks, team-building, funding, and scaling
+                                        responsibly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-containers tab-pane fade" id="day4" aria-labelledby="day4-tab" role="tabpanel">
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    08:00 – 10:00 AM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/team1.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Joshua Henry
+                                        </h5>
+                                        <p>AI Research Lead, DeepTech Labs
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Opening Keynote – The
+                                        State of AI 2025</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Kick off the event with an insightful
+                                        overview of
+                                        where artificial intelligence is headed. Ava will explore breakthroughs, global
+                                        shifts, and what’s next in deep learning, generative models, and AI ethics.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    12:00 – 14:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Leila-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Leila Zhang
+                                        </h5>
+                                        <p>VP of Machine Learning, Google
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building
+                                        Human-Centered
+                                        AI Products</h3>
+                                    <p class="text-light p-0 m-0 tab-para">This session covers how to design AI
+                                        solutions
+                                        that prioritize usability, fairness, and real-world impact. Bring your
+                                        laptop—hands-on UX exercises included.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    16:00 – 18:00 PM
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Carlos-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Carlos Rivera
+                                        </h5>
+                                        <p>Founder & CEO, NeuralCore
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: AI Policy &
+                                        Regulation –
+                                        A Global Overview</h3>
+                                    <p class="text-light p-0 m-0 tab-para">Learn how nations and organizations are
+                                        approaching AI governance, including frameworks for data privacy, bias
+                                        mitigation,
+                                        and accountability in model deployment.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row pt-3 mb-5 pb-5 mx-0 tab-border">
+                                <div class="col-md-2 text-white align-items-center d-flex ">
+                                    20:00 – 22:00 PM
+
+                                </div>
+                                <div class="col-md-4 d-flex text-white align-items-center d-flex">
+                                    <div>
+                                        <img src="images/Maria-img.webp" alt="" width="100" height="100"
+                                            class="rounded-3 tab-image">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Maria Gonzalez
+
+                                        </h5>
+                                        <p>Founder & CEO, SynthCore AI
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <h3 class="text-white tab-text-heading fw-bold lh-2 ">Session: Building a Startup
+                                        with
+                                        AI at the Core
+                                    </h3>
+                                    <p class="text-light p-0 m-0 tab-para">Marco shares his journey launching an
+                                        AI-first
+                                        startup. Discover tips on tech stacks, team-building, funding, and scaling
+                                        responsibly.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
-               
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Ticket Options section  -->
+
+    <section class="ticket-background section-padding ">
+        <div class="container-fluid position-relative z-2">
+
+            <div class="container  ">
+                <div class="innertext justify-content-between d-flex flex-column align-items-center">
+                    <div class="text-white sub-title d-flex font-size">
+                        <span class="font-size bracket-color"> [ </span>
+                        Ticket Options
+
+                        <span class="font-size bracket-color"> ]</span>
+                    </div>
+                    <h2 class="text-white display-5 fw-bold h2">
+                        Choose Your Pass
+
+
+                    </h2>
+                    <p class="text-white pb-1 lh-5 para  w-40 attend-para">
+                        Select the perfect ticket for your needs and gain access to exclusive<br> sessions, workshops,
+                        and more.
+                    </p>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cards">
+                        <div id="ticket-card-carousel" class="carousel slide" data-bs-ride="carousel">
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#ticket-card-carousel" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#ticket-card-carousel"
+                                    data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#ticket-card-carousel"
+                                    data-bs-slide-to="2"></button>
+                            </div>
+
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active d-flex gap-4 ">
+
+                                    <div class="card-outer ">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-25 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-outer">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-35 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="card-outer">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-25 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item  d-flex gap-4 ">
+
+
+                                    <div class="card-outer ">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-25 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-outer">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-35 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="card-outer">
+                                        <div class="card-inner-img position-relative">
+                                            <img src="images/ticket-logo.webp" alt="" width="80" class="ticket-logo">
+                                            <img src="images/barcode.webp" alt="" width="20%"
+                                                class=" p-2 position-absolute top-15 end-0">
+                                            <img src="images/card-logo.webp" alt="" width="40%"
+                                                class="position-absolute top-25 end-27 opacity-25">
+                                            <h2 class="card-heading m-0 text-white">Virtual</h2>
+                                            <h5 class="ticket-price text-white">$99</h5>
+                                            <h6 class="text-white">October 1 to 5 - 10:00 AM</h6>
+
+                                        </div>
+                                        <ul class="text-white list-unstyled m-0 card-inner-list">
+                                            <li class="pb-1 list-icon">
+                                                5 days of keynotes, workshops, and networking
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                50 world-class speakers
+
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+                                            <li class="pb-1 list-icon">
+                                                Startup showcase and live demos
+                                            </li>
+
+                                        </ul>
+                                        <div class=" d-flex align-items-center justify-content-center">
+                                            <a href="#" class="btn button-main text-white py-1 px-4 buyticket">
+                                                <span class="fx-slide ">Buy Tickets</span>
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
         </div>
     </section>
 
 
+    <!-- starting image section  -->
+
+    <section class="background section-padding">
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="innertext justify-content-between d-flex flex-column align-items-center">
+                    <div class="text-white sub-title d-flex font-size">
+                        <span class="font-size bracket-color"> [ </span>
+                        Event Location
+
+                        <span class="font-size bracket-color"> ]</span>
+                    </div>
+                    <h2 class="text-white display-5 fw-bold h2">
+                        Location & Venue
+
+
+                    </h2>
+                    <p class="text-white pb-1 lh-5 para  w-40 attend-para">
+                        Join us in the heart of innovation at San Francisco Tech Pavilion—<br>surrounded by top hotels,
+                        transit, and culture.
+
+
+
+
+                    </p>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6"><img class="rounded-3" src="images/location1.webp" alt="" width="100%"></div>
+                    <div class="col-md-6"><img class="rounded-3" src="images/location2.webp" alt="" width="100%"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
