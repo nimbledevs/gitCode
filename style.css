@@ -325,10 +325,10 @@ h4 {
   background-attachment: fixed;
 }
 
-.testi-gradient-color {
+.testi-gradient-color,.ticket-background {
   position: relative;
 }
-.testi-gradient-color::before {
+.testi-gradient-color::before ,.ticket-background::before{
   content: "";
   position: absolute;
   width: 100%;
@@ -432,4 +432,74 @@ h3 {
 h5{
   font-size: 18px !important;
   margin: 0px !important;
+}
+.tab-text-heading{
+  font-size: 26px !important;
+  margin-bottom: 10px !important;
+}
+.tab-day-heading{
+  font-size: 26px !important;
+  margin-bottom: 10px !important;
+}
+p.tab-para{
+  color:#ffffffbf !important;
+}
+.tab-border{
+ border-bottom: solid 1px #ffffff33;
+}
+.nav-tabs .nav-link {
+  color: #ffffffa8 !important; 
+  }
+.nav-tabs .nav-link.active {
+ color: #fff; 
+}
+.nav-tabs .nav-link.active{
+  background-color: transparent !important;
+  border: none;
+  color:#fff !important; 
+}
+.nav-link{
+  font-size: 16px !important;
+}
+
+
+/* ticket section  */
+.ticket-background{
+  background-image: url(images/ticket-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.cards{
+  margin-top:28px !important ;
+  padding: 0px 14px !important;
+}
+.buyticket{
+  width: 100% !important;
+}
+.card-inner-img{
+  background-image:url(images/ticket-card-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  border-radius: 8px;
+}
+.card-inner-list{
+padding: 24px 0px 48px;
+}
+.card-heading{
+  font-size: 36px;
+}
+.ticket-logo{
+  margin-bottom: 24px !important;
+}
+.ticket-price{
+  font-size: 20px;
+ margin-bottom: 24px !important; 
+}
+h6{
+  font-size: 14px !important;
 }
