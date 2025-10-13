@@ -108,10 +108,11 @@ const swiper = new Swiper('.our-image-slide', {
   }
 })
 
-let ticketSwiper =new Swiper('.ticket-swiper',{
+let ticketSwiper = new Swiper('.ticket-swiper',{
 slidesPerView:3,
- spaceBetween: 30,
+ spaceBetween:24,
  loop:true,
+slidesPerGroup :3,
 pagination: {
   el: ".swiper-pagination",
   clickable: true
